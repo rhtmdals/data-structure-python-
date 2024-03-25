@@ -2,6 +2,7 @@ array = []
 
 for j in range(10):
     array.append(int(input()))
+    
 def find_max_recursive(array, max, index):
     if index > 9:
         return max
